@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace max="32767" attributes="0"/>
+              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="jogadas" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Component id="temporizador" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                          <Component id="btreze" pref="0" max="32767" attributes="0"/>
+                          <Component id="bnove" pref="0" max="32767" attributes="0"/>
+                          <Component id="bcinco" max="32767" attributes="0"/>
+                          <Component id="bum" min="-2" pref="60" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="bdois" min="-2" pref="60" max="-2" attributes="0"/>
+                                  <Component id="bseis" max="32767" attributes="0"/>
+                                  <Component id="bdez" alignment="0" pref="0" max="32767" attributes="0"/>
+                                  <Component id="bquatorze" min="-2" pref="60" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="btres" max="32767" attributes="0"/>
+                                  <Component id="bsete" max="32767" attributes="0"/>
+                                  <Component id="bonze" pref="0" max="32767" attributes="0"/>
+                                  <Component id="bquinze" min="-2" pref="60" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="bquatro" max="32767" attributes="0"/>
+                                  <Component id="boito" max="32767" attributes="0"/>
+                                  <Component id="bdoze" alignment="0" pref="0" max="32767" attributes="0"/>
+                                  <Component id="bdezesseis" min="-2" pref="60" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Component id="titulo" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace max="32767" attributes="0"/>
+              <Component id="titulo" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jogadas" alignment="1" min="-2" max="-2" attributes="0"/>
+                  <Component id="temporizador" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                  <Component id="bum" max="32767" attributes="0"/>
+                  <Component id="bdois" max="32767" attributes="0"/>
+                  <Component id="btres" max="32767" attributes="0"/>
+                  <Component id="bquatro" min="-2" pref="61" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                  <Component id="bcinco" max="32767" attributes="0"/>
+                  <Component id="bseis" max="32767" attributes="0"/>
+                  <Component id="bsete" max="32767" attributes="0"/>
+                  <Component id="boito" min="-2" pref="61" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                  <Component id="bnove" max="32767" attributes="0"/>
+                  <Component id="bdez" max="32767" attributes="0"/>
+                  <Component id="bonze" max="32767" attributes="0"/>
+                  <Component id="bdoze" min="-2" pref="61" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                  <Component id="btreze" max="32767" attributes="0"/>
+                  <Component id="bquatorze" max="32767" attributes="0"/>
+                  <Component id="bquinze" max="32767" attributes="0"/>
+                  <Component id="bdezesseis" min="-2" pref="61" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="14" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JButton" name="bum">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="1"/>
+        <Property name="name" type="java.lang.String" value="bum" noResource="true"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="bumActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="bdois">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="2"/>
+        <Property name="name" type="java.lang.String" value="bdois" noResource="true"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="bdoisActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btres">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="3"/>
+        <Property name="name" type="java.lang.String" value="btres" noResource="true"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btresActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="bquatro">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="4"/>
+        <Property name="name" type="java.lang.String" value="bquatro" noResource="true"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="bquatroActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="bcinco">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="5"/>
+        <Property name="name" type="java.lang.String" value="bcinco" noResource="true"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="bcincoActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="bseis">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="6"/>
+        <Property name="name" type="java.lang.String" value="bseis" noResource="true"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="bseisActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="bsete">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="7"/>
+        <Property name="name" type="java.lang.String" value="bsete" noResource="true"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="bseteActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="boito">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="8"/>
+        <Property name="name" type="java.lang.String" value="boito" noResource="true"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="boitoActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="bnove">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="9"/>
+        <Property name="name" type="java.lang.String" value="bnove" noResource="true"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="bnoveActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="bdez">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="10"/>
+        <Property name="name" type="java.lang.String" value="bdez" noResource="true"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="bdezActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="bonze">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="11"/>
+        <Property name="name" type="java.lang.String" value="bonze" noResource="true"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="bonzeActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="bdoze">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="12"/>
+        <Property name="name" type="java.lang.String" value="bdoze" noResource="true"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="bdozeActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btreze">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="13"/>
+        <Property name="name" type="java.lang.String" value="btreze" noResource="true"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btrezeActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="bquatorze">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="14"/>
+        <Property name="name" type="java.lang.String" value="bquatorze" noResource="true"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="bquatorzeActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="bquinze">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="15"/>
+        <Property name="name" type="java.lang.String" value="bquinze" noResource="true"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="bquinzeActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="bdezesseis">
+      <Properties>
+        <Property name="name" type="java.lang.String" value="bdezesseis" noResource="true"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="bdezesseisActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="titulo">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="16" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="&lt;html&gt;&lt;b&gt;Quebra Cabe&#xe7;a&lt;/b&gt;&lt;/html&gt;"/>
+        <Property name="alignmentX" type="float" value="0.5"/>
+        <Property name="name" type="java.lang.String" value="titulo" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jogadas">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Jogadas: 0"/>
+        <Property name="name" type="java.lang.String" value="jogadas" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="temporizador">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Tempo: 00:00:00"/>
+        <Property name="name" type="java.lang.String" value="temporizador" noResource="true"/>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>
