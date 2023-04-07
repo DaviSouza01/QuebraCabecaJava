@@ -18,64 +18,76 @@ public class QuebraCabeca{
     public void mudar(JButton bApertado, JButton b1, JButton b2, JLabel temp){
         if(b1.getText().equals("")){
             jogadas++;
+            if(jogadas==1){
+                comecarTemp(temp);
+            }
             b1.setText(bApertado.getText());
             bApertado.setText("");
         }else if(b2.getText().equals("")){
             jogadas++;
+            if(jogadas==1){
+                comecarTemp(temp);
+            }
             b2.setText(bApertado.getText());
             bApertado.setText("");
-        }
-        
-        if(jogadas==1){
-            comecarTemp(temp);
-        }
-        
+        }  
     }
     
     public void mudar(JButton bApertado, JButton b1, JButton b2, JButton b3, JLabel temp){
         if(b1.getText().equals("")){
             jogadas++;
+            if(jogadas==1){
+                comecarTemp(temp);
+            }
             b1.setText(bApertado.getText());
             bApertado.setText("");
         }else if(b2.getText().equals("")){
             jogadas++;
+            if(jogadas==1){
+                comecarTemp(temp);
+            }
             b2.setText(bApertado.getText());
             bApertado.setText("");
         }else if(b3.getText().equals("")){
             jogadas++;
+            if(jogadas==1){
+                comecarTemp(temp);
+            }
             b3.setText(bApertado.getText());
             bApertado.setText("");
-        }
-        
-        if(jogadas==1){
-            comecarTemp(temp);
-        }
-        
+        } 
     }
     
     public void mudar(JButton bApertado, JButton b1, JButton b2, JButton b3, JButton b4, JLabel temp){
         if(b1.getText().equals("")){
             jogadas++;
+            if(jogadas==1){
+                comecarTemp(temp);
+            }
             b1.setText(bApertado.getText());
             bApertado.setText("");
         }else if(b2.getText().equals("")){
             jogadas++;
+            if(jogadas==1){
+                comecarTemp(temp);
+            }
             b2.setText(bApertado.getText());
             bApertado.setText("");
         }else if(b3.getText().equals("")){
             jogadas++;
+            if(jogadas==1){
+                comecarTemp(temp);
+            }
             b3.setText(bApertado.getText());
             bApertado.setText("");
         }else if(b4.getText().equals("")){
             jogadas++;
+            if(jogadas==1){
+                comecarTemp(temp);
+            }
             b4.setText(bApertado.getText());
             bApertado.setText("");
-        }
-        
-        if(jogadas==1){
-            comecarTemp(temp);
-        }
-        
+        }  
     }
     
     public boolean win(List vetor){
@@ -110,9 +122,9 @@ public class QuebraCabeca{
                     if (m == 60) {
                         h++;
                         m = 0;
-                            if (h == 24) {
-                                h = 0;
-                            }
+                        if (h == 24) {
+                            h = 0;
+                        }
                     }
                 }
                 s++;
@@ -134,7 +146,7 @@ public class QuebraCabeca{
                     temp.setText("Tempo: " + h + ":" + m + ":" + s);
                 }
             }
-        });  
+        });   
     }
     
     public void comecarTemp(JLabel temp){

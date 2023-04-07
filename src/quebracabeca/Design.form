@@ -41,13 +41,15 @@
                       <EmptySpace max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
                           <Group type="102" attributes="0">
-                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                                  <Component id="bdois" min="-2" pref="60" max="-2" attributes="0"/>
-                                  <Component id="bseis" max="32767" attributes="0"/>
-                                  <Component id="bdez" alignment="0" pref="0" max="32767" attributes="0"/>
-                                  <Component id="bquatorze" min="-2" pref="60" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="bdois" alignment="0" min="-2" pref="61" max="-2" attributes="0"/>
+                                  <Group type="103" alignment="0" groupAlignment="1" max="-2" attributes="0">
+                                      <Component id="bseis" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="bdez" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="bquatorze" alignment="0" min="-2" pref="60" max="-2" attributes="0"/>
+                                  </Group>
                               </Group>
-                              <EmptySpace max="-2" attributes="0"/>
+                              <EmptySpace min="-2" max="-2" attributes="0"/>
                               <Group type="103" groupAlignment="0" max="-2" attributes="0">
                                   <Component id="btres" max="32767" attributes="0"/>
                                   <Component id="bsete" max="32767" attributes="0"/>
@@ -57,9 +59,9 @@
                               <EmptySpace max="-2" attributes="0"/>
                               <Group type="103" groupAlignment="0" max="-2" attributes="0">
                                   <Component id="bquatro" max="32767" attributes="0"/>
-                                  <Component id="boito" max="32767" attributes="0"/>
                                   <Component id="bdoze" alignment="0" pref="0" max="32767" attributes="0"/>
                                   <Component id="bdezesseis" min="-2" pref="60" max="-2" attributes="0"/>
+                                  <Component id="boito" alignment="0" min="-2" pref="61" max="-2" attributes="0"/>
                               </Group>
                           </Group>
                           <Component id="titulo" min="-2" max="-2" attributes="0"/>
@@ -108,7 +110,7 @@
                   <Component id="bquinze" max="32767" attributes="0"/>
                   <Component id="bdezesseis" min="-2" pref="61" max="-2" attributes="0"/>
               </Group>
-              <EmptySpace min="-2" pref="14" max="-2" attributes="0"/>
+              <EmptySpace min="-2" max="-2" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
@@ -116,7 +118,7 @@
   <SubComponents>
     <Component class="javax.swing.JButton" name="bum">
       <Properties>
-        <Property name="text" type="java.lang.String" value="1"/>
+        <Property name="text" type="java.lang.String" value="8"/>
         <Property name="name" type="java.lang.String" value="bum" noResource="true"/>
       </Properties>
       <Events>
@@ -125,7 +127,7 @@
     </Component>
     <Component class="javax.swing.JButton" name="bdois">
       <Properties>
-        <Property name="text" type="java.lang.String" value="2"/>
+        <Property name="text" type="java.lang.String" value="11"/>
         <Property name="name" type="java.lang.String" value="bdois" noResource="true"/>
       </Properties>
       <Events>
@@ -134,7 +136,7 @@
     </Component>
     <Component class="javax.swing.JButton" name="btres">
       <Properties>
-        <Property name="text" type="java.lang.String" value="3"/>
+        <Property name="text" type="java.lang.String" value="5"/>
         <Property name="name" type="java.lang.String" value="btres" noResource="true"/>
       </Properties>
       <Events>
@@ -143,7 +145,7 @@
     </Component>
     <Component class="javax.swing.JButton" name="bquatro">
       <Properties>
-        <Property name="text" type="java.lang.String" value="4"/>
+        <Property name="text" type="java.lang.String" value="7"/>
         <Property name="name" type="java.lang.String" value="bquatro" noResource="true"/>
       </Properties>
       <Events>
@@ -152,7 +154,7 @@
     </Component>
     <Component class="javax.swing.JButton" name="bcinco">
       <Properties>
-        <Property name="text" type="java.lang.String" value="5"/>
+        <Property name="text" type="java.lang.String" value="9"/>
         <Property name="name" type="java.lang.String" value="bcinco" noResource="true"/>
       </Properties>
       <Events>
@@ -161,7 +163,7 @@
     </Component>
     <Component class="javax.swing.JButton" name="bseis">
       <Properties>
-        <Property name="text" type="java.lang.String" value="6"/>
+        <Property name="text" type="java.lang.String" value="2"/>
         <Property name="name" type="java.lang.String" value="bseis" noResource="true"/>
       </Properties>
       <Events>
@@ -170,7 +172,7 @@
     </Component>
     <Component class="javax.swing.JButton" name="bsete">
       <Properties>
-        <Property name="text" type="java.lang.String" value="7"/>
+        <Property name="text" type="java.lang.String" value="4"/>
         <Property name="name" type="java.lang.String" value="bsete" noResource="true"/>
       </Properties>
       <Events>
@@ -179,7 +181,7 @@
     </Component>
     <Component class="javax.swing.JButton" name="boito">
       <Properties>
-        <Property name="text" type="java.lang.String" value="8"/>
+        <Property name="text" type="java.lang.String" value="15"/>
         <Property name="name" type="java.lang.String" value="boito" noResource="true"/>
       </Properties>
       <Events>
@@ -188,7 +190,7 @@
     </Component>
     <Component class="javax.swing.JButton" name="bnove">
       <Properties>
-        <Property name="text" type="java.lang.String" value="9"/>
+        <Property name="text" type="java.lang.String" value="12"/>
         <Property name="name" type="java.lang.String" value="bnove" noResource="true"/>
       </Properties>
       <Events>
@@ -197,7 +199,7 @@
     </Component>
     <Component class="javax.swing.JButton" name="bdez">
       <Properties>
-        <Property name="text" type="java.lang.String" value="10"/>
+        <Property name="text" type="java.lang.String" value="3"/>
         <Property name="name" type="java.lang.String" value="bdez" noResource="true"/>
       </Properties>
       <Events>
@@ -206,7 +208,7 @@
     </Component>
     <Component class="javax.swing.JButton" name="bonze">
       <Properties>
-        <Property name="text" type="java.lang.String" value="11"/>
+        <Property name="text" type="java.lang.String" value="6"/>
         <Property name="name" type="java.lang.String" value="bonze" noResource="true"/>
       </Properties>
       <Events>
@@ -215,7 +217,7 @@
     </Component>
     <Component class="javax.swing.JButton" name="bdoze">
       <Properties>
-        <Property name="text" type="java.lang.String" value="12"/>
+        <Property name="text" type="java.lang.String" value="14"/>
         <Property name="name" type="java.lang.String" value="bdoze" noResource="true"/>
       </Properties>
       <Events>
@@ -224,7 +226,7 @@
     </Component>
     <Component class="javax.swing.JButton" name="btreze">
       <Properties>
-        <Property name="text" type="java.lang.String" value="13"/>
+        <Property name="text" type="java.lang.String" value="1"/>
         <Property name="name" type="java.lang.String" value="btreze" noResource="true"/>
       </Properties>
       <Events>
@@ -233,7 +235,7 @@
     </Component>
     <Component class="javax.swing.JButton" name="bquatorze">
       <Properties>
-        <Property name="text" type="java.lang.String" value="14"/>
+        <Property name="text" type="java.lang.String" value="13"/>
         <Property name="name" type="java.lang.String" value="bquatorze" noResource="true"/>
       </Properties>
       <Events>
@@ -242,7 +244,7 @@
     </Component>
     <Component class="javax.swing.JButton" name="bquinze">
       <Properties>
-        <Property name="text" type="java.lang.String" value="15"/>
+        <Property name="text" type="java.lang.String" value="10"/>
         <Property name="name" type="java.lang.String" value="bquinze" noResource="true"/>
       </Properties>
       <Events>
